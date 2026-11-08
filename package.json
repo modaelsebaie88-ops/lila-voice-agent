@@ -1,0 +1,25 @@
+{
+  "name": "lily-clinic-receptionist",
+  "version": "1.0.0",
+  "description": "Lily's Clinic AI phone receptionist: Twilio + Google Gemini (Gemini Live native audio, or ConversationRelay)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "live": "node go-live.js",
+    "test": "node test-call.js",
+    "call-me": "node call-me.js",
+    "test-live": "node test-live.js",
+    "setup-web-phone": "node setup-web-phone.js",
+    "test-knowledge": "node test-knowledge.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@google/genai": "^2.28.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "ws": "^8.18.0"
+  }
+}

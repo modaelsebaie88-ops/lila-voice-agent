@@ -1,0 +1,22 @@
+node_modules/
+.env
+bin/
+run.log
+test-audio/
+appointments.json
+messages.json
+test-appointments.json
+test-messages.json
+clinics/*/knowledge/.embeddings-cache.json
+calls.json
+knowledge-gaps.json
+test-calls.json
+test-knowledge-gaps.json
+test-learned-rules.json
+
+# Logs and local secrets
+*.log
+.env.*
+!.env.example
+*.pem
+*.key
